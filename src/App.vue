@@ -1,6 +1,7 @@
 <template>
   <div class="app-container">
-    <Saludo />
+    <!-- <Saludo /> -->
+    <Count />
   </div>
 </template>
 
@@ -14,8 +15,8 @@ export default {
   name: 'App',
   components: {
     Count,
-    Saludo
-
+    Saludo,
+    Count
 }
 }
 </script>
